@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700');
+
+/* Animista Classes */
+
+@-webkit-keyframes rotate-scale-up {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0);
+              transform: scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(2) rotateZ(180deg);
+              transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateZ(360deg);
+              transform: scale(1) rotateZ(360deg);
+    }
+  }
+  @keyframes rotate-scale-up {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0);
+              transform: scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(2) rotateZ(180deg);
+              transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateZ(360deg);
+              transform: scale(1) rotateZ(360deg);
+    }
+  }
+
+  @-webkit-keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  @keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  
+  
+.rotate-scale-up {
+	-webkit-animation: rotate-scale-up 0.65s linear both;
+	        animation: rotate-scale-up 0.65s linear both;
+}
+
+.scale-in-center {
+	-webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* styles begin */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Asap, sans-serif;
+}
+
+html,
+body, 
+.block{
+    height: 100%;
+    margin: 0 auto;
+    /* border: black 1px solid; */
+}
+
+
+.top {
+	position: relative;
+}
+
+.pin-top {
+	position: relative;
+}
+
+.pin-bottom {
+	position: relative;
+}
+
+.pinned {
+	position: fixed !important;
+	z-index: 9999 !important;
+}
+
+/* .pinned + div {
+	padding-top: 64px;
+} */
+
+.card-profile {
+	margin-top: 30px;
+	padding: 1px;
+	text-align: center;
+}
+.card-avatar {
+	margin: -50px auto 0;
+	border-radius: 50%;
+	overflow: hidden;
+	padding: 0;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+/* .card-avatar {
+	margin-top: 5px;
+} */
+
+.card-avatar {
+	max-width: 200px;
+	max-height: 200px;
+}
+
+.person-img {
+	border-radius: 20px;
+}
+
+.cardColor {
+	background-color: grey;
+}
+
+.pushpin-demo-nav {
+	z-index: 0;
+}
+
+a,
+.btn-floating {
+	position: relative;
+	/* height: 70px; */
+	z-index: auto;
+}
+
+.portfolio-stack{
+    width: 80%;
+    background-color: purple;
+}
+
+.first-name{
+    font-size: 55px;
+    color: white;
+    background:#00cccb;
+    padding: 10px;  
+    width: 50%;  
+    display: inline-block;
+    text-align: right;
+    
+}
+
+.last-name{
+    font-size: 55px;
+    color: #00cccb;
+    background: white;
+    padding: 10px;
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+   
+}
+
+.header, h1{
+    margin: 0 auto;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.aboutmenav,
+.git-but{
+    background-color: #662124
+}
+
+.portnav, 
+.link-but{
+    background-color: #9ca39c
+}
+
+.contactnav,
+.goog-but{
+    background-color: #00cccb
+}
+
+.contactform{
+    color: white;
+}
+
+/* THE MAINCONTAINER HOLDS EVERYTHING */
+.maincontainer{
+    position: relative;
+    width: 250px;
+    height: 320px;
+    background: none;
+    top: 0;
+    left: 0;
+    transform: translate(0%, 5%);
+    margin: 0 auto;
+  
+  }
+  
+  /* THE CARD HOLDS THE FRONT AND BACK FACES */
+  .thecard{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transform-style: preserve-3d;
+    transition: all 0.9s ease;
+  }
+  
+  /* THE PSUEDO CLASS CONTROLS THE FLIP ON MOUSEOVER AND MOUSEOUT */
+  .thecard:hover{
+    transform: rotateY(180deg);
+  }
+  
+  /* THE FRONT FACE OF THE CARD, WHICH SHOWS BY DEFAULT */
+   .thefront{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    overflow: hidden;
+    background: #662124;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* THE BACK FACE OF THE CARD, WHICH SHOWS ON MOUSEOVER */
+  .theback{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    overflow: hidden;
+    background: #00cccb;
+    color: #333;
+    text-align: center;
+    transform: rotateY(180deg);
+  }
+  
+  
+  /*This block (starts here) is merely styling for the flip card, and is NOT an essential part of the flip code */
+  .thefront h1, .theback h1{
+    font-family: 'zilla slab', sans-serif;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .thefront p, .theback p{
+    font-family: 'zilla slab', sans-serif;
+    padding: 5px;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .screenshot{
+      padding: 20px;
+   
+  }
+
+  .person-about{
+      font-size: 20px;
+  }
+
+  
+  
