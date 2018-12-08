@@ -20,90 +20,111 @@
 		<link rel="stylesheet" href="assets/css/style.css" />
 	</head>
 
-
 	<body>
+		<!-- Styled Header -->
+		<div id="header" class="row header">
+			<h1 class="center-align">
+				<div class="col s12 m6 header"><span class="first-name flow-text">Joseaph</span></div>
+				<div class="col s12 m6 header"><span class="last-name flow-text">Mankin</span></div>
+			</h1>
+		</div>
+		<!-- Floating Contact Buttons -->
+		<div class="fixed-action-btn">
+			<a class="btn-floating btn-large red tooltipped" data-position="left" data-tooltip="Contact Me">
+				<i class="large material-icons">touch_app</i>
+			</a>
+			<ul>
+				<li>
+					<a
+						href="mailto:joseaphmankin@gmail.com"
+						class="waves-effect waves-dark btn-large btn-floating center goog-but tooltipped"
+						data-position="left"
+						data-tooltip="joseaphmankin@gmail.com"
+						><i class="fab fa-google"></i
+					></a>
+				</li>
+				<li>
+					<a
+						href="https://github.com/JoseaphMankin"
+						class="waves-effect waves-dark btn-large btn-floating center git-but tooltipped"
+						data-position="left"
+						data-tooltip="GitHub"
+						><i class="fab fa-github"></i
+					></a>
+				</li>
+				<li>
+					<a
+						href="https://www.linkedin.com/in/joseaphmankin/"
+						class="waves-effect waves-dark btn-large btn-floating center link-but tooltipped"
+						data-position="left"
+						data-tooltip="LinkedIn"
+						><i class="fab fa-linkedin"></i
+					></a>
+				</li>
+			</ul>
+		</div>
 
-			<div class="row header">
-					<div class="col s12 header">
-							<h1 id="header" class="center-align">
-								<span class="first-name flow-text">Joseaph</span><span class="last-name flow-text">Mankin</span>
-							</h1>
-						</div>
-					
-				  </div>
-						
-			
-		
-			<div class="fixed-action-btn">
-					<a class="btn-floating btn-large blue lighten-2 tooltipped" data-position="left" data-tooltip="Contact Me">
-					  <i class="large material-icons">publish</i>
-					</a>
-					<ul>
-					  <li><a href="https://github.com/JoseaphMankin" class="waves-effect waves-dark btn-large btn-floating center git-but tooltipped"data-position="left" data-tooltip="GitHub"><i class="fab fa-github"></i></a></li>
-					  <li><a href="https://www.linkedin.com/in/joseaphmankin/" class="waves-effect waves-dark btn-large btn-floating center link-but tooltipped"data-position="left" data-tooltip="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
-					  <li><a href="mailto:joseaphmankin@gmail.com" class="waves-effect waves-dark btn-large btn-floating center goog-but tooltipped"data-position="left" data-tooltip="joseaphmankin@gmail.com"><i class="fab fa-google"></i></a></li>
-					</ul>
-				  </div>
-
-		<div id="blue" class="block black autoDiv">
+		<div id="blue" class="block grey lighten-2 autoDiv">
 			<nav class="pushpin-demo-nav" data-target="blue">
 				<div class="nav-wrapper aboutmenav">
-						<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-						<div class="container">
+					<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+					<div class="container">
 						<a href="#" class="brand-logo">About Me</a>
 						<ul id="nav-mobile" class="right hide-on-med-and-down">
 							<!-- <li><a href="#blue" class="smooth-goto">About Me</a></li> -->
 							<li><a href="#red" class="smooth-goto">Portfolio</a></li>
-							<li><a href="#green" class="smooth-goto">Contact Me</a></li>
+							<!-- <li><a href="#green" class="smooth-goto">Contact Me</a></li> -->
 						</ul>
 					</div>
 				</div>
 			</nav>
-			
+
 			<ul class="sidenav" id="mobile-demo">
-					<li><a href="#header" class="smooth-goto">About Me</a></li>
-					<li><a href="#red" class="smooth-goto">Portfolio</a></li>
-					<li><a href="#green" class="smooth-goto">Contact Me</a></li>
-				  </ul>
+				<li><a href="#header" class="smooth-goto">About Me</a></li>
+				<li><a href="#red" class="smooth-goto">Portfolio</a></li>
+				<!-- <li><a href="#green" class="smooth-goto">Contact Me</a></li> -->
+			</ul>
 
 			<!-- About Me start -->
 			<div class="container">
 				<br />
 				<div class="row">
 					<div class="col s6 scale-in-center">
-						<div class="person-about white-text flow-text">
-							<h3>Let's Make Something Great Together!</h3>
+						<div class="person-about black-text flow-text">
+							<h3 class="great">Let's Make Something Great Together!</h3>
 							<blockquote>
 								<p>
-									Hello, it's me, Joe! I’m a Full Stack Web Developer with a long standing interest and
-									passion for technology. Current student of the Coding Bootcamp at UT. Enjoys
-									leveraging extensive background in legal research and litigation support to provide
-									unique perspectives on how end-users interact with websites and software platforms.
-									Passionate about approaching programming challenges from different angles, and
-									collaborating with others to create meaningful web applications.
+									Hello, it's me, Joe! I’m a Full Stack Web Developer with a long standing interest
+									and passion for technology. I'm currently a student of the Coding Bootcamp at UT.
+									Enjoys leveraging extensive background in legal research and litigation support to
+									provide unique perspectives on how end-users interact with websites and software
+									platforms. Passionate about approaching programming challenges from different
+									angles, and collaborating with others to create meaningful web applications.
 								</p>
 							</blockquote>
-							<div class="col s4">
-								<a
-									href="https://github.com/JoseaphMankin"
-									class="waves-effect waves-dark btn-large btn-floating center git-but rotate-scale-up"
-									><i class="fab fa-github"></i> Github</a
-								>
-							</div>
-							<div class="col s4">
-								<a
-									href="https://www.linkedin.com/in/joseaphmankin/"
-									class="waves-effect waves-dark btn-large btn-floating center link-but rotate-scale-up"
-									><i class="fab fa-linkedin"></i> LinkedIn</a
-								>
-							</div>
-							<div class="col s4">
-								<a
-									href="mailto:joseaphmankin@gmail.com"
-									class="waves-effect waves-dark btn-large btn-floating center goog-but rotate-scale-up"
-									><i class="fab fa-google"></i> Google</a
-								>
-							</div>
+							<!--
+								<div class="col s4">
+									<a
+										href="https://github.com/JoseaphMankin"
+										class="waves-effect waves-dark btn-large btn-floating center git-but rotate-scale-up"
+										><i class="fab fa-github"></i> Github</a
+									>
+								</div>
+								<div class="col s4">
+									<a
+										href="https://www.linkedin.com/in/joseaphmankin/"
+										class="waves-effect waves-dark btn-large btn-floating center link-but rotate-scale-up"
+										><i class="fab fa-linkedin"></i> LinkedIn</a
+									>
+								</div>
+								<div class="col s4">
+									<a
+										href="mailto:joseaphmankin@gmail.com"
+										class="waves-effect waves-dark btn-large btn-floating center goog-but rotate-scale-up"
+										><i class="fab fa-google"></i> Google</a
+									>
+								</div>
+							-->
 						</div>
 					</div>
 					<!-- about me image -->
@@ -125,139 +146,139 @@
 						<ul id="nav-mobile" class="right hide-on-med-and-down">
 							<li><a href="#header" class="smooth-goto">About Me</a></li>
 							<!-- <li><a href="#red" class="smooth-goto">Portfolio</a></li> -->
-							<li><a href="#green" class="smooth-goto">Contact Me</a></li>
+							<!-- <li><a href="#green" class="smooth-goto">Contact Me</a></li> -->
 						</ul>
 					</div>
 				</div>
 			</nav>
-			
+			<!-- Row 1 of Cards -->
 			<div class="row">
-
-					<div class="col s3 maincontainer">
-							
-							<div class="thecard">
-								<div class="thefront">
-									<h1>Burger 2 - The Sequel</h1>
-									<p class="flow-text">"Burger" app that allows user to Create/Devour/Delete Burgers. Demos use of 
-											Express and Node.js and uses Handlebars Templates with Bootstrap CSS Framework, only this time utilizing "sequelize" for ORM functionality.</p>
-								</div>
-		
-								<div class="theback">
-									<div class="row">
-											<a href="https://burger-mankin-sequelize.herokuapp.com/">
-										<img
-											class="screenshot"
-											src="assets/images/screenshots/"
-											alt="Burger2"
-										/></a>
-									</div>
-		
-									<div class="row">
-										<a
-											href="https://github.com/JoseaphMankin/sequelizedBurger"
-											class="waves-effect waves-dark btn-large git-but"
-											><i class="fab fa-github"></i> Github</a
-										>
-									</div>
-								</div>
-							</div>
+				<!-- Burger2 -->
+				<div class="col s3 maincontainer">
+					<div class="thecard">
+						<div class="thefront">
+							<h1>Burger 2 - The Sequel</h1>
+							<p class="flow-text">
+								"Burger" app that allows user to Create/Devour/Delete Burgers. Demos use of Express and
+								Node.js and uses Handlebars Templates with Bootstrap CSS Framework, only this time
+								utilizing "sequelize" for ORM functionality.
+							</p>
 						</div>
-					
-					<div class="col s3 maincontainer">
-							
-						<div class="thecard">
-							<div class="thefront">
-								<h1>Burger</h1>
-								<p>"Burger" app that allows user to Create/Devour/Delete Burgers. Demonstrates use of 
-										Express and Node.js and uses Handlebars Templates with Bootstrap CSS Framework.</p>
-							</div>
-	
-							<div class="theback">
-								<div class="row">
-										<a href="https://burger-mankin.herokuapp.com/">
+
+						<div class="theback">
+							<div class="row">
+								<a href="https://burger-mankin-sequelize.herokuapp.com/" target="_blank">
 									<img
-										class="screenshot"
-										src="assets/images/screenshots/"
-										alt="Burger"
-									/></a>
-								</div>
-	
-								<div class="row">
-									<a
-										href="https://github.com/JoseaphMankin/burger"
-										class="waves-effect waves-dark btn-large git-but"
-										><i class="fab fa-github"></i> Github</a
-									>
-								</div>
+										class="screenshot z-depth-4"
+										src="assets/images/screenshots/burgerScreenShot.png"
+										alt="Burger2"
+								/></a>
+							</div>
+
+							<div class="row">
+								<a
+									href="https://github.com/JoseaphMankin/sequelizedBurger"
+									class="waves-effect waves-dark btn-large git-but z-depth-4"
+									><i class="fab fa-github"></i> Github</a
+								>
 							</div>
 						</div>
 					</div>
-	
-					<div class="col s3 maincontainer">
-							
-							<div class="thecard">
-								<div class="thefront">
-									<h1>Unit 4 Game</h1>
-									<p>Vintage Star Wars themed turn based combat game. Made with HTML, CSS,
-											Javascript and jQuery.</p>
-								</div>
-		
-								<div class="theback">
-									<div class="row">
-											<a href="https://joseaphmankin.github.io/unit-4-game/">
-										<img
-											class="screenshot"
-											src="assets/images/screenshots/SWRPGscreenshot.png"
-											alt="Unit 4"
-										/></a>
-									</div>
-		
-									<div class="row">
-										<a
-											href="https://github.com/JoseaphMankin/unit-4-game"
-											class="waves-effect waves-dark btn-large git-but"
-											><i class="fab fa-github"></i> Github</a
-										>
-									</div>
-								</div>
-							</div>
-						</div>
-	
-					<div class="col s3 maincontainer">
-							
-							<div class="thecard">
-								<div class="thefront">
-									<h1>GIF Generator</h1>
-									<p>Giphy API / AJAX calls through JavaScript/jQuery</p>
-								</div>
-		
-								<div class="theback">
-									<div class="row">
-											<a href="https://joseaphmankin.github.io/giphyAPI/">
-										<img
-											class="screenshot"
-											src="assets/images/screenshots/"
-											alt="Unit 4"
-										/></a>
-									</div>
-		
-									<div class="row">
-										<a
-											href="https://github.com/JoseaphMankin/giphyAPI"
-											class="waves-effect waves-dark btn-large git-but"
-											><i class="fab fa-github"></i> Github</a
-										>
-									</div>
-								</div>
-							</div>
-						</div>
-	
-					
 				</div>
-			<div class="row">
-					
+				<!-- Burger1 -->
 				<div class="col s3 maincontainer">
-						
+					<div class="thecard">
+						<div class="thefront">
+							<h1>Burger</h1>
+							<p>
+								"Burger" app that allows user to Create/Devour/Delete Burgers. Demonstrates use of
+								Express and Node.js and uses Handlebars Templates with Bootstrap CSS Framework.
+							</p>
+						</div>
+
+						<div class="theback">
+							<div class="row">
+								<a href="https://burger-mankin.herokuapp.com/" target="_blank">
+									<img
+										class="screenshot z-depth-4"
+										src="assets/images/screenshots/burgerScreenShot1.png"
+										alt="Burger"
+								/></a>
+							</div>
+
+							<div class="row">
+								<a
+									href="https://github.com/JoseaphMankin/burger"
+									class="waves-effect waves-dark btn-large git-but z-depth-4"
+									><i class="fab fa-github"></i> Github</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- FriendFinder -->
+				<div class="col s3 maincontainer">
+					<div class="thecard">
+						<div class="thefront">
+							<h1>Friend Finder</h1>
+							<p>
+								Fun quiz to determine what type of gamer you are. Demos Express with a Node.js server on the back end and the Materialize CSS framework on the front end.
+							</p>
+						</div>
+
+						<div class="theback">
+							<div class="row">
+								<a href="https://friendfinder-mankin.herokuapp.com/" target="_blank">
+									<img
+										class="screenshot z-depth-4"
+										src="assets/images/screenshots/FriendFinderScreen.jpg"
+										alt="FriendFinder"
+								/></a>
+							</div>
+
+							<div class="row">
+								<a
+									href="https://github.com/JoseaphMankin/FriendFinder"
+									class="waves-effect waves-dark btn-large git-but z-depth-4"
+									><i class="fab fa-github"></i> Github</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- bAmazon -->
+				<div class="col s3 maincontainer">
+					<div class="thecard">
+						<div class="thefront">
+							<h1>bAmazon</h1>
+							<p>Amazon style store front ran entirely in the terminal. Demonstrates use of Node CLI with Inquirer and MySQL</p>
+						</div>
+
+						<div class="theback">
+							<div class="row">
+							<div class="col s12">
+								<a href="https://github.com/JoseaphMankin/bamazon" target="_blank">
+									<img class="screenshot z-depth-4" src="assets/images/screenshots/bamazonCustomer.jpg" alt="bamazon"
+								/></a>
+							</div>
+
+							<div class="col s12">
+								<a
+									href="https://github.com/JoseaphMankin/bamazon"
+									class="waves-effect waves-dark btn-large git-but z-depth-4"
+									><i class="fab fa-github"></i> Github</a
+								>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Row 2 of Cards -->
+			<div class="row">
+
+				<!-- Word Guess -->
+				<div class="col s3 maincontainer">
 					<div class="thecard">
 						<div class="thefront">
 							<h1>Word Guess</h1>
@@ -266,18 +287,18 @@
 
 						<div class="theback">
 							<div class="row">
-									<a href="https://joseaphmankin.github.io/Word-Guess-Game/">
-								<img
-									class="screenshot"
-									src="assets/images/screenshots/MGScreenshot.png"
-									alt="Word Guess"
+								<a href="https://joseaphmankin.github.io/Word-Guess-Game/" target="_blank">
+									<img
+										class="screenshot z-depth-4"
+										src="assets/images/screenshots/MGScreenshot.png"
+										alt="Word Guess"
 								/></a>
 							</div>
 
 							<div class="row">
 								<a
 									href="https://github.com/JoseaphMankin/Word-Guess-Game"
-									class="waves-effect waves-dark btn-large git-but"
+									class="waves-effect waves-dark btn-large git-but z-depth-4"
 									><i class="fab fa-github"></i> Github</a
 								>
 							</div>
@@ -285,38 +306,40 @@
 					</div>
 				</div>
 
+				<!-- Unit 4 Star Wars -->
 				<div class="col s3 maincontainer">
-						
 						<div class="thecard">
 							<div class="thefront">
 								<h1>Unit 4 Game</h1>
-								<p>Vintage Star Wars themed turn based combat game. Made with HTML, CSS,
-										Javascript and jQuery.</p>
+								<p>
+									Vintage Star Wars themed turn based combat game. Made with HTML, CSS, Javascript and
+									jQuery.
+								</p>
 							</div>
 	
 							<div class="theback">
 								<div class="row">
-										<a href="https://joseaphmankin.github.io/unit-4-game/">
-									<img
-										class="screenshot"
-										src="assets/images/screenshots/SWRPGscreenshot.png"
-										alt="Unit 4"
+									<a href="https://joseaphmankin.github.io/unit-4-game/" target="_blank">
+										<img
+											class="screenshot z-depth-4"
+											src="assets/images/screenshots/SWRPGscreenshot.png"
+											alt="Unit 4"
 									/></a>
 								</div>
 	
 								<div class="row">
 									<a
 										href="https://github.com/JoseaphMankin/unit-4-game"
-										class="waves-effect waves-dark btn-large git-but"
+										class="waves-effect waves-dark btn-large git-but z-depth-4"
 										><i class="fab fa-github"></i> Github</a
 									>
 								</div>
 							</div>
 						</div>
-					</div>
+				</div>
 
+				<!-- Giphy -->
 				<div class="col s3 maincontainer">
-						
 						<div class="thecard">
 							<div class="thefront">
 								<h1>GIF Generator</h1>
@@ -325,167 +348,70 @@
 	
 							<div class="theback">
 								<div class="row">
-										<a href="https://joseaphmankin.github.io/giphyAPI/">
-									<img
-										class="screenshot"
-										src="assets/images/screenshots/"
-										alt="Unit 4"
+									<a href="https://joseaphmankin.github.io/giphyAPI/" target="_blank">
+										<img class="screenshot z-depth-4" src="assets/images/screenshots/giphyScreen.jpg" alt="giphy"
 									/></a>
 								</div>
 	
 								<div class="row">
 									<a
 										href="https://github.com/JoseaphMankin/giphyAPI"
-										class="waves-effect waves-dark btn-large git-but"
+										class="waves-effect waves-dark btn-large git-but z-depth-4"
 										><i class="fab fa-github"></i> Github</a
 									>
 								</div>
 							</div>
 						</div>
-					</div>
-
+				</div>
+				<!-- Rock Paper Scissors -->
 				<div class="col s3 maincontainer">
-						
-						<div class="thecard">
-							<div class="thefront">
-								<h1>Rock Paper Scissors</h1>
-								<p>Rock Paper Scissors game connected to Firebase for User Persistance.</p>
-							</div>
-	
-							<div class="theback">
-								<div class="row">
-										<a href="https://joseaphmankin.github.io/RPS-Multiplayer/">
-									<img
-										class="screenshot"
-										src="assets/images/screenshots/"
-										alt="RPS"
-									/></a>
-								</div>
-	
-								<div class="row">
-									<a
-										href="https://github.com/JoseaphMankin/RPS-Multiplayer"
-										class="waves-effect waves-dark btn-large git-but"
-										><i class="fab fa-github"></i> Github</a
-									>
-								</div>
-							</div>
-						</div>
-					</div>
-			</div>
-
-			<div class="row">
-					<div class="col s3 maincontainer">
-						
-							<div class="thecard">
-								<div class="thefront">
-									<h1>Trivia Game</h1>
-									<p>"Game of Thrones" themed trivia game. Incorporates use of timers into
-											JavaScript.</p>
-								</div>
-		
-								<div class="theback">
-									<div class="row">
-											<a href="https://joseaphmankin.github.io/TriviaGame/">
-										<img
-											class="screenshot"
-											src="assets/images/screenshots/triviascreenshot.jpg"
-											alt="RPS"
-										/></a>
-									</div>
-		
-									<div class="row">
-										<a
-											href="https://github.com/JoseaphMankin/TriviaGame"
-											class="waves-effect waves-dark btn-large git-but"
-											><i class="fab fa-github"></i> Github</a
-										>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col s3 maincontainer">
-						
-								<div class="thecard">
-									<div class="thefront">
-										<h1>Constructor Word Guess</h1>
-										<p>Node.js Command Line Game where users can play a "50 States" themed word guess in the terminal.</p>
-									</div>
-			
-									<div class="theback">
-										<div class="row">
-												<a href="https://github.com/JoseaphMankin/Constructor-Word-Guess">
-											<img
-												class="screenshot"
-												src="assets/images/screenshots/"
-												alt="Unit 4"
-											/></a>
-										</div>
-			
-										<div class="row">
-											<a
-												href="https://github.com/JoseaphMankin/Constructor-Word-Guess"
-												class="waves-effect waves-dark btn-large git-but"
-												><i class="fab fa-github"></i> Github</a
-											>
-										</div>
-									</div>
-								</div>
-							</div>
-		
-						<div class="col s3 maincontainer">
-								
-								<div class="thecard">
-									<div class="thefront">
-										<h1>GIF Generator</h1>
-										<p>Giphy API / AJAX calls through JavaScript/jQuery</p>
-									</div>
-			
-									<div class="theback">
-										<div class="row">
-												<a href="https://joseaphmankin.github.io/giphyAPI/">
-											<img
-												class="screenshot"
-												src="assets/images/screenshots/"
-												alt="Unit 4"
-											/></a>
-										</div>
-			
-										<div class="row">
-											<a
-												href="https://github.com/JoseaphMankin/giphyAPI"
-												class="waves-effect waves-dark btn-large git-but"
-												><i class="fab fa-github"></i> Github</a
-											>
-										</div>
-									</div>
-								</div>
-							</div>
-
-				<div class="col s3 maincontainer">
-						
 					<div class="thecard">
 						<div class="thefront">
-							<h1>Train Scheduler</h1>
-							<p>Basic Train Scheduler to demonstrate Moment.js and Firebase for User
-                                    Accounts.</p>
+							<h1>Rock Paper Scissors</h1>
+							<p>Rock Paper Scissors game connected to Firebase for User Persistance.</p>
 						</div>
 
 						<div class="theback">
 							<div class="row">
-									<a href="https://joseaphmankin.github.io/TrainScheduler/">
-								<img
-									class="screenshot"
-									src="assets/images/screenshots/"
-									alt="Word Guess"
+								<a href="https://joseaphmankin.github.io/RPS-Multiplayer/" target="_blank">
+									<img class="screenshot z-depth-4" src="assets/images/screenshots/RPS.jpg" alt="RPS"
 								/></a>
 							</div>
 
 							<div class="row">
 								<a
-									href="https://github.com/JoseaphMankin/TrainScheduler"
-									class="waves-effect waves-dark btn-large git-but"
+									href="https://github.com/JoseaphMankin/RPS-Multiplayer"
+									class="waves-effect waves-dark btn-large git-but z-depth-4"
+									><i class="fab fa-github"></i> Github</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col s3 maincontainer">
+					<div class="thecard">
+						<div class="thefront">
+							<h1>Trivia Game</h1>
+							<p>"Game of Thrones" themed trivia game. Incorporates use of timers into JavaScript.</p>
+						</div>
+
+						<div class="theback">
+							<div class="row">
+								<a href="https://joseaphmankin.github.io/TriviaGame/" target="_blank">
+									<img
+										class="screenshot z-depth-4"
+										src="assets/images/screenshots/triviascreenshot.jpg"
+										alt="RPS"
+								/></a>
+							</div>
+
+							<div class="row">
+								<a
+									href="https://github.com/JoseaphMankin/TriviaGame"
+									class="waves-effect waves-dark btn-large git-but z-depth-4"
 									><i class="fab fa-github"></i> Github</a
 								>
 							</div>
@@ -493,11 +419,88 @@
 					</div>
 				</div>
 
-			
+				<div class="col s3 maincontainer">
+					<div class="thecard">
+						<div class="thefront">
+							<h1>Constructor Word Guess</h1>
+							<p>
+								Node.js Command Line Game where users can play a "50 States" themed word guess in the
+								terminal.
+							</p>
+						</div>
+
+						<div class="theback">
+							<div class="row">
+								<a href="https://github.com/JoseaphMankin/Constructor-Word-Guess" target="_blank">
+									<img class="screenshot z-depth-4" src="assets/images/screenshots/" alt="Unit 4"
+								/></a>
+							</div>
+
+							<div class="row">
+								<a
+									href="https://github.com/JoseaphMankin/Constructor-Word-Guess"
+									class="waves-effect waves-dark btn-large git-but z-depth-4"
+									><i class="fab fa-github"></i> Github</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col s3 maincontainer">
+					<div class="thecard">
+						<div class="thefront">
+							<h1>GIF Generator</h1>
+							<p>Giphy API / AJAX calls through JavaScript/jQuery</p>
+						</div>
+
+						<div class="theback">
+							<div class="row">
+								<a href="https://joseaphmankin.github.io/giphyAPI/" target="_blank">
+									<img class="screenshot z-depth-4" src="assets/images/screenshots/" alt="Unit 4"
+								/></a>
+							</div>
+
+							<div class="row">
+								<a
+									href="https://github.com/JoseaphMankin/giphyAPI"
+									class="waves-effect waves-dark btn-large git-but z-depth-4"
+									><i class="fab fa-github"></i> Github</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col s3 maincontainer">
+					<div class="thecard">
+						<div class="thefront">
+							<h1>Train Scheduler</h1>
+							<p>Basic Train Scheduler to demonstrate Moment.js and Firebase for User Accounts.</p>
+						</div>
+
+						<div class="theback">
+							<div class="row">
+								<a href="https://joseaphmankin.github.io/TrainScheduler/" target="_blank">
+									<img class="screenshot z-depth-4" src="assets/images/screenshots/" alt="Word Guess"
+								/></a>
+							</div>
+
+							<div class="row">
+								<a
+									href="https://github.com/JoseaphMankin/TrainScheduler"
+									class="waves-effect waves-dark btn-large git-but z-depth-4"
+									><i class="fab fa-github"></i> Github</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 
-		<!-- <div id="green" class="block black">
+		<!--
+			<div id="green" class="block black">
 			<nav class="pushpin-demo-nav" data-target="green">
 				<div class="nav-wrapper contactnav">
 					<div class="container">
@@ -505,21 +508,14 @@
 						<ul id="nav-mobile" class="right hide-on-med-and-down">
 							<li><a href="#header" class="smooth-goto">About Me</a></li>
 							<li><a href="#red" class="smooth-goto">Portfolio</a></li>
-							
+
 						</ul>
 					</div>
 				</div>
 			</nav>
 			<br>
-			<br> -->
-
-
-			
-		</div>
-
-		
-
-		
+			<br>
+		-->
 
 		<!-- Script Sources -->
 		<script
